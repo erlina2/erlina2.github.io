@@ -1,4 +1,4 @@
-# Implementation Chatbot For Web GoHangout Customer Service Support Using Watson Assistant
+# Implementation Chatbot For Web GoHangout  As Customer Service Support Using Watson Assistant
 Capstone Project Erlina Dwi Pratiwi in Infinite Learning 
 
 # Pattern
