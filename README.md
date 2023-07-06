@@ -1,13 +1,9 @@
-# Implementation AI Chabot for Kampus Merdeka using Watson Assistant
+# Implementation Chatbot For Web GoHangout Customer Service Support Using Watson Assistant
 Capstone Project Erlina Dwi Pratiwi in Infinite Learning 
 
 # Pattern
 
 https://developer.ibm.com/patterns/assemble-a-pizza-ordering-chatbot-dialog/?mhsrc=ibmsearch_a&mhq=
-
-# Description
-
-Chatbot ini dirancang sebagai asisten virtual yang dapat digunakan oleh mahasiswa/i untuk mendapatkan informasi mengenai berbagai aspek program Kampus Merdeka. Chatbot ini didukung oleh kecerdasan buatan (artificial intelligence) dan dapat memberikan jawaban atas pertanyaan yang diajukan oleh pengguna berdasarkan pengetahuan yang telah diprogram sebelumnya. Dengan adanya chatbot Kampus Merdeka, diharapkan mahasiswa/i dapat dengan mudah mengakses informasi yang dibutuhkan dan mendapatkan bantuan yang diperlukan dalam mencari informasi mengenai program Kampus Merdeka.
 
 # Flow 
 
@@ -23,7 +19,7 @@ Chatbot ini dirancang sebagai asisten virtual yang dapat digunakan oleh mahasisw
 * [![watson][watson]][watson]
 
 ### Link
-[Kamdek BOT](https://arvykr.github.io/)
+[GoHangout](https://erlina2.github.io/)
 
 
   [watson]: https://img.shields.io/badge/watson-assistant-blue
