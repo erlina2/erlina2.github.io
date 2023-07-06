@@ -1,0 +1,968 @@
+{
+  "intents": [
+    {
+      "intent": "Anjung_Cahaya",
+      "examples": [
+        {
+          "text": "Anjung Cahaya"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Api_Biru",
+      "examples": [
+        {
+          "text": "Api Biru"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Cafe_Keboon",
+      "examples": [
+        {
+          "text": "Cafe Keboon"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Cafe_Puncak",
+      "examples": [
+        {
+          "text": "Cafe Puncak"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Halaman_Belakang",
+      "examples": [
+        {
+          "text": "Halaman Belakang"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Iya",
+      "examples": [
+        {
+          "text": "Iya"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Kedai_Kopi_Pinggir_Laut",
+      "examples": [
+        {
+          "text": "Kedai Kopi Pinggir Laut"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Kedai_Kopi_Ujung_757",
+      "examples": [
+        {
+          "text": "Kedai Kopi Ujung 757"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Lainnya",
+      "examples": [
+        {
+          "text": "Lainnya"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Mala_Moon",
+      "examples": [
+        {
+          "text": "Mala Moon"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Nuansa_Alam",
+      "examples": [
+        {
+          "text": "1"
+        },
+        {
+          "text": "Nuansa Alam atau Outdor"
+        },
+        {
+          "text": "Rekomendasi hangout nuansa alam"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Nuansa_Jepanes_dan_Korean",
+      "examples": [
+        {
+          "text": "Nuansa Jepanes dan Korean"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Nuansa_Modern",
+      "examples": [
+        {
+          "text": "Nuansa Modern"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Ouca",
+      "examples": [
+        {
+          "text": "Ouca"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Rasa_Cafe",
+      "examples": [
+        {
+          "text": "Rasa Cafe"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Red_N_Blue_Cafe",
+      "examples": [
+        {
+          "text": "Red N Blue Cafe"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Roku",
+      "examples": [
+        {
+          "text": "Roku"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Sedaun_Cafe",
+      "examples": [
+        {
+          "text": "Sedaun Cafe"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Seoul",
+      "examples": [
+        {
+          "text": "Seoul"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Shojin",
+      "examples": [
+        {
+          "text": "Shojin"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Tema_Cafe",
+      "examples": [
+        {
+          "text": "Tema Cafe"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Terimakasih",
+      "examples": [
+        {
+          "text": "Bye"
+        },
+        {
+          "text": "Terimakasih"
+        },
+        {
+          "text": "Thank You"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "The_Manabu",
+      "examples": [
+        {
+          "text": "The Manabu"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Tidak",
+      "examples": [
+        {
+          "text": "Tidak"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Tomo",
+      "examples": [
+        {
+          "text": "Tomo"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "title": "Nuansa Alam",
+            "options": [
+              {
+                "label": "The Manabu Bintan",
+                "value": {
+                  "input": {
+                    "text": "The Manabu Bintan"
+                  }
+                }
+              },
+              {
+                "label": "Cafe Puncak",
+                "value": {
+                  "input": {
+                    "text": "Cafe Puncak"
+                  }
+                }
+              },
+              {
+                "label": "Kedai Kopi Pinggir Laut",
+                "value": {
+                  "input": {
+                    "text": "Kedai Kopi Pinggir Laut"
+                  }
+                }
+              },
+              {
+                "label": "Kedai Kopi Ujung 757",
+                "value": {
+                  "input": {
+                    "text": "Kedai Kopi Ujung 757"
+                  }
+                }
+              },
+              {
+                "label": "Mala Moon",
+                "value": {
+                  "input": {
+                    "text": "Mala Moon"
+                  }
+                }
+              },
+              {
+                "label": "Cafe Keboon",
+                "value": {
+                  "input": {
+                    "text": "Cafe Keboon"
+                  }
+                }
+              },
+              {
+                "label": "Sedaun Cafe",
+                "value": {
+                  "input": {
+                    "text": "Sedaun Cafe"
+                  }
+                }
+              },
+              {
+                "label": "Anjung Cahaya",
+                "value": {
+                  "input": {
+                    "text": "Anjung Cahaya"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Nuansa_Alam",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_8_1688482107279",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://lh3.googleusercontent.com/p/AF1QipMkl6ff_M_bd5lOOfnHxvA70kd4bqjnfYiy00XI=s1360-w1360-h1020",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Alamat\t: Jl. Usman Harun, Kota Tanjung Pinang, Kepulauan Riau\nBuka\t: Senin-Minggu, 09.00-00.00 WIB"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Kedai_Kopi_Pinggir_Laut",
+      "dialog_node": "node_10_1688459691900",
+      "previous_sibling": "node_5_1688458686145"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://lh3.googleusercontent.com/p/AF1QipOUjEWRWQGhT6zS9W5l9UorTk9VYDJWrbebSXo5=s1360-w1360-h1020",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Alamat\t: Jl.Hang Tuah No.17 Sadaap, Tepi Laut, Kec. Tj. Pinang Kota, Kota Tanjung Pinang, \n                  Kepulauan Riau 29111\nBuka\t: Senin - Minggu, 12.00 - 23.00 WIB"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#The_Manabu",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1688457972875",
+      "previous_sibling": "node_2_1688549093635"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Nuansa Modern",
+            "options": [
+              {
+                "label": " Tema Coffe",
+                "value": {
+                  "input": {
+                    "text": " Tema Coffe"
+                  }
+                }
+              },
+              {
+                "label": "Red N Blue Cafe",
+                "value": {
+                  "input": {
+                    "text": "Red N Blue Cafe"
+                  }
+                }
+              },
+              {
+                "label": "Halaman Belakang",
+                "value": {
+                  "input": {
+                    "text": "Halaman Belakang"
+                  }
+                }
+              },
+              {
+                "label": "Rasa cafe",
+                "value": {
+                  "input": {
+                    "text": "Rasa cafe"
+                  }
+                }
+              },
+              {
+                "label": "Api Biru",
+                "value": {
+                  "input": {
+                    "text": "Api Biru"
+                  }
+                }
+              },
+              {
+                "label": "Ouca",
+                "value": {
+                  "input": {
+                    "text": "Ouca"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Nuansa_Modern",
+      "dialog_node": "node_1_1688476597106",
+      "previous_sibling": "node_9_1688460760186"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://lh3.googleusercontent.com/p/AF1QipN-Lx4fzeIyiatwuf-5Zh7tqLf-VqSUvPlfFJb5=s1360-w1360-h1020",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Alamat\t: Jl. Engku Putri, Tj. Ayun Sakti, Kec. Bukit Bestari, Kota Tanjung Pinang, Kepulauan \n                 Riau\nBuka \t: Senin-Minggu, 10.00-23.00 WIB"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Halaman_Belakang",
+      "dialog_node": "node_1_1688477610460",
+      "previous_sibling": "node_2_1688477496955"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://bluefire.co.id/wp-content/uploads/2022/08/1659434252227.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Alamat\t: Jl. Hang Tuah, Tanjungpinang Kota, Kec. Tj. Pinang Kota, Kota Tanjung Pinang, \n                  Kepulauan Riau 29111\nBuka\t: Senin-Minggu, 11.00-00.00 WIB\nReservasi : 0811-695-656"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Api_Biru",
+      "dialog_node": "node_1_1688478327766",
+      "previous_sibling": "node_5_1688478161726"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Nuansa Jepanes & Korean",
+            "options": [
+              {
+                "label": "Tomo",
+                "value": {
+                  "input": {
+                    "text": "Tomo"
+                  }
+                }
+              },
+              {
+                "label": "Seoul",
+                "value": {
+                  "input": {
+                    "text": "Seoul"
+                  }
+                }
+              },
+              {
+                "label": "Roku",
+                "value": {
+                  "input": {
+                    "text": "Roku"
+                  }
+                }
+              },
+              {
+                "label": "Shojin",
+                "value": {
+                  "input": {
+                    "text": "Shojin"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Nuansa_Jepanes_dan_Korean",
+      "dialog_node": "node_1_1688478956690",
+      "previous_sibling": "node_8_1688478565963"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://lh3.googleusercontent.com/p/AF1QipOo7Wj1xy-ZLMRNmB-u-bEZuqexL-rRmL4sT4Sl=s1360-w1360-h1020",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Alamat\t: Komplek Ruko D’Green City, Jl. Aisyah Sulaiman Blok Century C1 No.7, RW.7, Sei \n                 Jang, Bukit Bestari, Tanjung Pinang City, Riau Islands 29124\nBuka \t: Senin-Jumat, 10.00-22.00 WIB\nReservasi : 0813-6556-2992"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Red_N_Blue_Cafe",
+      "dialog_node": "node_2_1688477496955",
+      "previous_sibling": "node_4_1688477079994"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Nuansa Alam",
+                "value": {
+                  "input": {
+                    "text": "Nuansa Alam"
+                  }
+                }
+              },
+              {
+                "label": "Nuansa Modern",
+                "value": {
+                  "input": {
+                    "text": "Nuansa Modern"
+                  }
+                }
+              },
+              {
+                "label": "Nuansa Japanes & Korean",
+                "value": {
+                  "input": {
+                    "text": "Nuansa Japanes & Korean"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Lainnya",
+      "dialog_node": "node_2_1688549093635",
+      "previous_sibling": "node_8_1688548165823"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://lh3.googleusercontent.com/p/AF1QipMMqPASf71g5oKU4a3jk1NIIXaM-vWY3HV3GIdS=s1360-w1360-h1020",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Alamat\t: Jl. Raja H. Fisabililah, Sei Jang, Kec. Bukit Bestari, Kota Tanjung Pinang, Kepulauan \n                  Riau 29112\nBuka\t: Senin-Minggu, 11.00-23.00 WIB\nReservasi :  0813-6641-3151\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Tema_Cafe",
+      "dialog_node": "node_4_1688477079994",
+      "previous_sibling": "node_1_1688476597106"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://lh3.googleusercontent.com/p/AF1QipNP6aWl6oXOQccau4ucN3gRGeEnqz4wtkVz4eEf=s1360-w1360-h1020",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Alamat   :  Jl. Soekarno Hatta, Kp. Baru, Kec. Tanjungpinang Bar., Kota Tanjung Pinang, \n                   Kepulauan Riau 29121\nBuka       :  Selasa-Minggu, 12.00-21.00 WIB"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Seoul",
+      "dialog_node": "node_4_1688480206894",
+      "previous_sibling": "node_5_1688479362011"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://lh3.googleusercontent.com/p/AF1QipOIYmWpqRL5pl88Cls-0lJ95dL6nBkb3BVc5xUQ=s1360-w1360-h1020",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Alamat\t: Bukit Cermin, Bukit Cermin, Kec. Tanjungpinang Barat, Kota Tanjung Pinang, \n                 Kepulauan Riau\nBuka \t: Senin-Minggu, 16.05-00.00 WIB\nReservasi :  0859-4775-1649"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Cafe_Puncak",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1688458686145",
+      "previous_sibling": "node_1_1688457972875"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://lh3.googleusercontent.com/p/AF1QipOR1L2zPL-Cbr6QFvkXPoDKIrydHq1HfP0dCT1g=s1360-w1360-h1020",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Alamat\t: Jl. R.H. Fisabilillah Km 8 Atas\nBuka \t: Senin-Minggu, 09.00-23.00 WIB"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Rasa_Cafe",
+      "dialog_node": "node_5_1688478161726",
+      "previous_sibling": "node_1_1688477610460"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://lh3.googleusercontent.com/p/AF1QipNmY3Mgxd_mDcH3Lz9KpheyfJ-iOIGz8A0neZi-=s1360-w1360-h1020",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Alamat\t: Jl. Gudang Minyak No.133, Rimba Jaya, Kec. Tanjungpinang Bar., Kota Tanjung Pinang, Kepulauan Riau 29112\nBuka\t: Senin-Minggu, 12.00-22.00 WIB"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Tomo",
+      "dialog_node": "node_5_1688479362011",
+      "previous_sibling": "node_1_1688478956690"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://lh3.googleusercontent.com/p/AF1QipP6TRz2OQAnnyDVXq52mQI9rffww0Bpe3WXDhx7=s1360-w1360-h1020",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Alamat  :  Jl. Engku Putri No.63, Tj. Ayun Sakti, Kec. Bukit Bestari, Kota Tanjung Pinang, \n                  Kepulauan Riau 29124\nBuka      :  Senin-Minggu, 10.00-22.00 WIB\nReservasi  :   0822-6816-2685"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Shojin",
+      "dialog_node": "node_5_1688480826309",
+      "previous_sibling": "node_6_1688480540919"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://lh3.googleusercontent.com/p/AF1QipO6nt7_xKThucVWRq3_0YupHpgWNWpiTXHaeLx6=s1360-w1360-h1020",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Alamat\t: Jl. Usman Harun, Kec. Tanjungpinang Barat, Kepulauan Riau\nBuka\t: Senin-Minggu, 16.30-00.00 WIB\nReservasi :  0819-9141-2161"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Kedai_Kopi_Ujung_757",
+      "dialog_node": "node_6_1688459967067",
+      "previous_sibling": "node_10_1688459691900"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://lh3.googleusercontent.com/p/AF1QipNyn2qFQBiGWSNRO_j4nOzyuHsrRXRmnl2v0zGv=s1360-w1360-h1020",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Alamat\t: Jl. Puncak Indah, Kemboja, Kec. Tanjungpinang Bar., Kota Tanjung Pinang, \n                 Kepulauan Riau\nBuka\t: Senin-Minggu, 17.00-23.00 WIB"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Sedaun_Cafe",
+      "dialog_node": "node_6_1688460619375",
+      "previous_sibling": "node_7_1688460384945"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://lh3.googleusercontent.com/p/AF1QipOiUYcjJ79O9DvopIny4LQbhy68XQq4s1hbB3E5=s1360-w1360-h1020",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Alamat   :  Ruko vila cipta mas, Jl. Hang Lekir, Batu IX, Tanjungpinang Timur, Tanjung Pinang \n                   City, Riau Islands 29125\nBuka       : Senin-Minggu, 12.00-21.30 WIB\nReservasi  :  0812-7077-5533"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Roku",
+      "dialog_node": "node_6_1688480540919",
+      "previous_sibling": "node_4_1688480206894"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://lh3.googleusercontent.com/p/AF1QipOGVUarSlx8c1GwE8MujTPMWRSrV9_nMn3vefWs=s1360-w1360-h1020",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Alamat\t: Tj. Ayun Sakti, Kec. Bukit Bestari, Kota Tanjung Pinang, Kepulauan Riau\nBuka\t: Senin-Minggu, 16.00-23.30 WIB"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Mala_Moon",
+      "dialog_node": "node_7_1688460084503",
+      "previous_sibling": "node_6_1688459967067"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://lh3.googleusercontent.com/p/AF1QipN5y4qwpIbpoN25MB6cgq8YLLlvW01h6hMyXTGw=s1360-w1360-h1020",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Alamat\t: Sei Jang, Kec. Bukit Bestari, Kota Tanjung Pinang, Kepulauan Riau 29122\nBuka\t: Senin-Minggu, 16.00-22.00 WIB"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Cafe_Keboon",
+      "dialog_node": "node_7_1688460384945",
+      "previous_sibling": "node_7_1688460084503"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://lh3.googleusercontent.com/p/AF1QipOoYruNEDeYYLjsM7-8LrItkot1XYL9xjZtIyLl=s1360-w1360-h1020",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Alamat\t: Jl RH Fisabilillah No.KM 8, atas (Seberang SPBU, Batu 8 atas, Kota Tanjung Pinang, \n                 Kepulauan Riau 29123\nBuka\t: Senin-Minggu, 10.00-22.00 WIB"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Ouca",
+      "dialog_node": "node_8_1688478565963",
+      "previous_sibling": "node_1_1688478327766"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sama-Sama"
+              },
+              {
+                "text": "You Are Wellcome"
+              },
+              {
+                "text": "Bye"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Terimakasih",
+      "dialog_node": "node_8_1688482107279"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Hangout place bernuansa apa yang sedang anda cari?",
+            "options": [
+              {
+                "label": "Nuansa Alam",
+                "value": {
+                  "input": {
+                    "text": "Nuansa Alam"
+                  }
+                }
+              },
+              {
+                "label": "Nuansa Modern",
+                "value": {
+                  "input": {
+                    "text": "Nuansa Modern"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Iya",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1688548165823",
+      "previous_sibling": "Anything else"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://lh3.googleusercontent.com/p/AF1QipNyu9qPJdjbyOIlvObx96Tp_gNZAllriRt19KCe=s1360-w1360-h1020",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Alamat\t: Jl. Hang Tuah, Kota Tanjung Pinang, Kepulauan Riau\nBuka\t: Senin-Minggu, 16.30-00.00 WIB"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Anjung_Cahaya",
+      "dialog_node": "node_9_1688460760186",
+      "previous_sibling": "node_6_1688460619375"
+    }
+  ],
+  "counterexamples": [],
+  "learning_opt_out": false,
+  "language": "en",
+  "description": "created for assistant 3898eb11-b9e6-43f2-b3d3-dd7c1df5139d",
+  "name": "Hangout Bot-dialog"
+}
