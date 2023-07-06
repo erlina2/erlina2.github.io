@@ -11,7 +11,7 @@ Chatbot ini dirancang sebagai asisten virtual yang dapat digunakan oleh mahasisw
 
 # Flow 
 
-![flow](https://github.com/ArvyKR/arvykr.github.io/assets/95832640/9e35b30b-5be3-4ddb-884f-76dcd6bc1fae)
+![flow]([https://github.com/ArvyKR/arvykr.github.io/assets/95832640/9e35b30b-5be3-4ddb-884f-76dcd6bc1fae](https://github.com/erlina2/erlina2.github.io/blob/main/flow.png?raw=true)
 
 
 - User sends messages to the application (running locally or on IBM Cloud).
